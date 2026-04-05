@@ -1,5 +1,4 @@
-if True:
-    a = 51
-    print("condition is true")
+x = range(3, 20, -2)
 
-print(a)
+for n in x:
+    print(n)
