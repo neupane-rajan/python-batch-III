@@ -27,7 +27,46 @@ for i in range(1, 6):
 
 for i in range(1, 10, 2):
     print(i)
+
+for i in range(10, -1, -1):
+    print(i)
+
+# start from 10 and loop end at -1
+
+for i in range(0, -9, -1):
+    print(i)
+# 0,-1,-2,-3,-4,-5,-6,-7,-8
+# decremeant jaba hamro first value second value vanda thulo hunxa taba matra hamle decreament ko use garne
 """
 
-for i in range(10,0,-1):
+"""
+# loop with list
+
+fruits = ["apple", "banana", "cherry"]
+
+for i in fruits:
+    print(i)
+
+
+# loop with string
+name = "Niijo Tech pvt ltd."
+count = 0
+for i in name:
+    print(i)
+    count = count + 1
+print(count)
+
+# loop with number : we can not used loop on integer
+# x = 14
+# for i in x:
+#     print(x)
+
+# loop with tuple
+t = (1, 2, 3, 4, 5, 6)
+for i in t:
+    print(i)
+"""
+# loop with set
+set_1 = {1, 2, 3, 4, 5, 6,7,8}
+for i in set_1:
     print(i)
