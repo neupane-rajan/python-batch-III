@@ -1,0 +1,21 @@
+ctrl + b = hide explorer or show explorer
+ctrl + ` = hide or show the terminal
+ctrl + k + o = open the folder in explorer
+ctrl + d = select the  next occurence of the selected word
+ctrl + shift + up arrow = select the line above
+ctrl + shift + down arrow = select the line below
+ctrl + l = select the current line
+ctrl + shift + k = delete the current line
+ctrl + enter =  go the the next line below
+ctrl + shift + enter = go to the previous line above
+ctrl + shift + left arrow + "",'',(),{}, = select the word to the left and add anything sepecified in the quotes, brackets, or parentheses
+ctrl + p =   open the file search
+
+# terminal commands
+ctrl + shift + c = copy in terminal
+ctrl + shift + v = paste in terminal
+ctrl + shift + ` = create a new terminal
+ls = list the files and folder in current directory
+pwd = show the current directory
+cd "directory name" = change the current directory to the specified directory
+python file_name.py = run the specified python file
