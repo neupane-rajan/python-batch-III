@@ -1,4 +1,4 @@
-# While loop: 
+# While loop:
 # a while loop is used when you want to repeat something until a condition becomes false.
 
 # syntax:
@@ -12,12 +12,12 @@ while condition:
 #     print(x)
 #     x +=1 #x = x+1
 
-x=1
-while True:
-    print(x)
-    x = x+1
-    if x >5:
-        break
+# x = 1
+# while True:
+#     print(x)
+#     x = x + 1
+#     if x > 5:
+#         break
 
 """
 
@@ -33,3 +33,26 @@ while x <= 5:
     print(x)
 
 """
+
+# WAP to print 1 to 10
+# WAP to print 10 to 1
+# 1.
+"""x = 1
+while True:
+    if x > 10:
+        break
+    print(x)
+    x = x + 1
+
+
+x = 1
+while x <= 10:
+    print(x)
+    x += 1
+"""
+#  2.
+
+x = 10
+while x >= 1:
+    print(x)
+    x = x - 1
